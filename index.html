@@ -172,8 +172,12 @@
 					</div>
 					<ul class="resume-list">
 						<li>
-							<h2>2020-Present</h2>
+							<h2>2020 January</h2>
 							<h3>30DAYトライアル1st</h3>
+						</li>
+						<li>
+							<h2>2020 February-Present</h2>
+							<h3>30DAYトライアル2nd</h3>
 							<h4>課題進行中...</h4>
 						</li>
 						<!--
@@ -270,7 +274,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 text-md-right">
-					<a href="#" class="site-btn mb-5">See All Portfolio</a>
+					<a href="#" class="site-btn mb-5">See All Portfolio（作成中）</a>
 				</div>
 			</div>
 			<div class="portfolio-warp">
@@ -292,7 +296,7 @@
 					<div class="col-xl-3 col-lg-6 col-md-6">
 						<div class="portfolio-item">
 							<a href="img/portfolio/kurinosuke2.jpg" class="set-bg port-pic" data-setbg="img/portfolio/kurinosuke2-min.jpg"></a>
-							<h2>コーディング練習２</h2>
+							<h2>コーディング練習３</h2>
 							<p>くりのすけnoteで作成</p>
 						</div>
 					</div>
@@ -385,21 +389,25 @@
 					<div class="section-title">
 						<h2>お問い合わせ</h2>
 					</div>
-					<form class="contact-form">
+					<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeTg4F-PExMUw3qNr4GIFBi_MyjSHG8T3HmwZsTBsaYqfMxnA/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd" class="contact-form">
 						<div class="row">
 							<div class="col-md-6">
-								<input type="text" placeholder="お名前">
+								<label for="nameform">お名前</label>
+								<input id="nameform" type="text" name="entry.1332582323" placeholder="お名前を入力してください。">
 							</div>
 							<div class="col-md-6">
-								<input type="text" placeholder="メールアドレス">
+								<label for="mailform">メールアドレス</label>
+								<input id="mailform" name="emailAddress" type="text" placeholder="example@example.com">
 							</div>
 							<div class="col-md-12">
-								<input type="text" placeholder="件名">
-								<textarea placeholder="本文"></textarea>
+								<label for="titleform">件名</label>
+								<input id="titleform" type="text" name="entry.203002082" placeholder="件名を入力してください。">
+								<label for="mainform">本文</label>
+								<textarea id="mainform" name="entry.1443107893" placeholder="用件を入力してください。"></textarea>
 							</div>
 						</div>
 						<div class="text-md-right">
-							<button class="site-btn">送信（工事中）</button>
+							<button type="submit" class="site-btn">送信</button>
 						</div>
 					</form>
 				</div>
